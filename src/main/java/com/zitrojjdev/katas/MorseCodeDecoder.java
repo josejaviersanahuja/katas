@@ -14,7 +14,7 @@ public class MorseCodeDecoder {
             String[] letterInMorse = w.split(" ");
             for (String c:letterInMorse
                  ) {
-                builder.append(MorseCode.get(c));
+               // builder.append(MorseCode.get(c));
             }
             builder.append(" ");
         }
